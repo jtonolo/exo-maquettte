@@ -1,0 +1,309 @@
+@font-face {
+    font-family: 'glyphicons-halfing-regular.eot';
+    src: url("../fonts/glyphicons-halflings-regular.eot");
+
+}
+
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.nav {
+    text-decoration: none;
+    color:grey;
+    font-size: 16px;
+    font-family: 'Arvo';
+    
+}
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 16px;
+    font-family: 'Arvo';
+    
+}
+
+.nav:hover{
+    color: whitesmoke;
+}
+
+#menu{
+    display:none;
+}
+
+
+.bgd {
+    background: #383737;
+}
+
+.navbar {
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 4;
+}
+
+#whos {
+    margin-right: 15px;
+}
+
+.mr5 {
+    margin-right: 10%;
+
+}
+
+#home {
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+    background-image: url(../images/hero-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 3%;
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    width: 50%;
+    margin-top: 3%;
+    ;
+    font-size: 23px;
+}
+
+.btn {
+    padding: 15px;
+    background: #f84e4e;
+    border-radius: 10px;
+    font-size:35px;
+
+}
+.btn:hover{
+    background: #fa3131;
+}
+
+#who {
+    text-align: center;
+    padding-top: 2%;
+    font-size: 25px;
+    padding-bottom: 5%;
+
+}
+h1{
+    font-size:60px;
+    font-family:'Arvo';
+    font-weight:lighter;
+    line-height: 80px;
+}
+h2 {
+    content: "";
+    color: #e73d1f;
+    font-family:'Arvo';
+}
+
+.colo {
+    color: #e73d1f
+}
+
+#get-involved {
+
+    background: #e9e2e2;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.flex {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.item {
+    width: 300px;
+    text-align: center;
+    
+    margin-top:5%;
+}
+
+.rounded {
+    border-radius: 50%;
+    background-color: #383737;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 80px;
+    margin: auto;
+}
+
+.btn1 {
+    padding: 10px;
+    color: #e73d1f;
+    border: 0.5px solid #726f6f31;
+    border-radius: 10px;
+    background: whitesmoke;
+    font-size: 20px;
+}
+
+footer {
+    background: #e73d1f;
+    padding-top: 10%;
+    padding-bottom: 3%;
+}
+
+.logbot {
+    margin-left: 10%;
+   
+}
+
+.hr{
+    width:150px;
+    height:1px;
+    background:#e73d1f;
+    margin:auto;
+    margin-top: 20px;
+}
+
+.logo{
+width:250px;
+}
+
+.dropbtn {
+   background:#383737;
+    color: white;
+    
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right:0;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #e73d1f;}
+
+/*responsive*/
+@media screen and (max-width:1114px){
+    .item{
+        width:600px;
+    }
+}
+
+@media screen and (max-width:1429px){
+    h1{
+        font-size:50px;
+    }
+    .text{
+        width:70%;
+    }
+    p{
+        font-size:20px;
+       
+    }
+    .btn{
+        font-size:30px;
+    }
+    .logo{
+        width:200px;
+        }
+
+}
+@media screen and (max-width:1007px){
+    h1{
+        font-size:40px;
+        line-height: 45px;
+    }
+    p{
+        font-size:18px;
+    }
+    .btn{
+        font-size:25px;
+    }
+    .text{
+        width:70%;
+    }
+    .logo{
+        width:130px;
+        }
+    
+}
+@media screen and (max-width:767px){
+    #whos {
+        display:none;
+    }
+    #get{
+        display:none;
+    }
+    #menu{
+        display:inline;
+    }
+
+}
+
+@media screen and (max-width:670px){
+    h1{
+        font-size:30px;
+        line-height: 40px;
+    }
+    p{
+        font-size:16px;
+    }
+    .btn{
+        font-size:20px;
+    }
+    .logo{
+        width:150px;
+        }
+}
+@media screen and (max-width:550px){
+    h1{
+        font-size:25px;
+        line-height: 30px;
+    }
+    p{
+        font-size:14px;
+    }
+    .btn{
+        font-size:18px;
+    }
+    .logo{
+        width:100px;
+        }
+}
